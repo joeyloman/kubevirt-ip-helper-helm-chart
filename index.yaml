@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   kubevirt-ip-helper:
   - apiVersion: v2
+    appVersion: v0.2
+    created: "2023-11-06T13:12:16.618972+01:00"
+    description: A Helm chart for Kubernetes
+    digest: da28b67f62bf2dcb234b25c1f33eefc1c18234a11816d0a4fc4928f5e74f7641
+    name: kubevirt-ip-helper
+    type: application
+    urls:
+    - https://joeyloman.github.io/kubevirt-ip-helper-helm-chart/kubevirt-ip-helper-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: v0.1
-    created: "2023-10-17T14:41:12.597982+02:00"
+    created: "2023-11-06T13:12:16.618621+01:00"
     description: A Helm chart for Kubernetes
     digest: a44d80d7c57fe65f157c2fbe2c00957a857bb64c8c82dd0b1bfa64b2b86e99d1
     name: kubevirt-ip-helper
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://joeyloman.github.io/kubevirt-ip-helper-helm-chart/kubevirt-ip-helper-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-17T14:41:12.597512+02:00"
+generated: "2023-11-06T13:12:16.617924+01:00"
