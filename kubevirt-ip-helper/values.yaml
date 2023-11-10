@@ -64,6 +64,8 @@ kubevirtiphelper:
   env:
     - name: LOGLEVEL
       value: Info
+    - name: METRICS_PORT
+      value: 8080
   
   # this is also related to the podAnnotations.k8s.v1.cni.cncf.io/networks
   nicConfigs:
@@ -73,6 +75,9 @@ kubevirtiphelper:
   #  - name: public-network2
   #    nic: eth2
   #    ip4: 192.168.10.10/24
+
+  service:
+    metricsPort: 8080
 
 
 #
